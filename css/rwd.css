@@ -1,0 +1,86 @@
+@media (max-width: 1200px) {
+	figcaption{
+		position: relative;
+	}
+
+	#panel3 {
+		background: none;
+	}
+
+	#panel3 .gallery {
+		border: 1px solid #D8D8D8;
+	}
+
+	#spacer3 {
+		display: none;
+	}
+
+	.graphic_thumbs {
+		display: none;
+	}
+
+	#thumbs .bodyText, #thumbs hr {
+		display: none;
+	}
+}
+
+@media (max-width: 990px) {
+
+	#pictures {
+		background: url(../images/iPhone1.png)no-repeat;
+		background-position: center;
+		height: 300px;
+		margin-top: 50px;
+	}
+
+	#device2, #device3, #device1{
+		display: none;
+	}
+
+	#container {
+		display: hidden !important;
+	}
+
+	#namesboi {
+		display: inline !important;
+		height: 3000px;
+	}
+
+	figcaption:hover {
+		opacity: 0;
+	}
+	.bodyText h2 {
+		font-size: 2em;
+	}
+	
+	hr {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	
+
+}
+
+@media (max-width: 814px) {
+
+	.navbar-brand img{
+		width: 200px;
+	}
+
+	.navbar-header .navbar-brand {
+		padding-top: 20px;
+	}
+
+}
+
+@media (max-width: 500px) {
+	#panel1 {
+		background-position-y: 0px;
+	}
+
+	.bodyText {
+		font-size: .75em;
+		margin-top: 65px;
+	}
+}
